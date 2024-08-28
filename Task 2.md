@@ -1,11 +1,11 @@
-# Task 2: Monitoring instance metrics using CloudWatch.
+# Task 2: Monitoring application logs using CloudWatch Logs
 
 ### In this task, I  generated log data on the Web Server and then monitored the logs using CloudWatch Logs.
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b> I Opened a new web browser tab, entered the WebServerIP address</br> 
+<b> I Opened a new web browser tab, and entered the WebServerIP address</br> 
 <b>•This took me to the web server Test Page.</br>
 <b>•You now generate log data by attempting to access a page that does not exist.</br>
 <img src="" height="80%" width="80%" />
