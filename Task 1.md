@@ -50,22 +50,28 @@ so I configured the CloudWatch agent to collect the web server logs and general 
 <b>I stored the configuration file in AWS Systems Manager Parameter Store, which the CloudWatch agent can then retrieve.</br>
 </br>
 
-<b>• I selected "Create parameter", I then configured the following information:</br>
+<b>• I selected "Create parameter", This parameter will be referenced when starting the CloudWatch agent.</br>
+<b>I then configured the following information:</br>
+<img src="" height="80%" width="80%" />
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<b> I added the configurations code under (LINK) "value",</br>
+<b> I then examined the above configuration code. which defines the following items to be monitored:</br>
+<b>• **Logs:** Two web server log files to be collected and sent to CloudWatch Logs</br>
+<b>• **Metrics:** CPU, disk, and memory metrics to be sent to CloudWatch Metrics</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<b>• I then used another Run Command to start the CloudWatch agent on the web server.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<b>• I selected the following commands and clicked enter:</br>
+<b>• Before running the commands, I  viewed the definition of the command.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
