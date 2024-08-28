@@ -1,33 +1,106 @@
 # Task 1: Installing the CloudWatch agent.
 
-<b>• I made sure my CIDR block had enough addresses.</br> 
-<b>• I changed the amount of AZ to 1 because I only need one, but in a real-life scenario I would use 3 to make it highly available. I also did the same for the number of public and private subnets.,.</br> 
-<b>• For Tenancy, I selected Default, for cost-effective.</br> 
-<img src="https://github.com/Tanakagi/Testing-VPC-Connectivity-and-troubleshooting-connection-issues./blob/96b4dda5cc0c295f3492448afecaabe10564e306/Project%20Images/image%201.png" height="80%" width="80%" />
-<img src="https://github.com/Tanakagi/Testing-VPC-Connectivity-and-troubleshooting-connection-issues./blob/96b4dda5cc0c295f3492448afecaabe10564e306/Project%20Images/image2.png" height="80%" width="80%" />
+### In this task, you use Systems Manager to install the CloudWatch agent on an EC2 instance. You configure it to collect both application and system metrics.
+
+<b>• In the AWS Management Console, I selected Systems Manager.</br> 
+<img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• For the Number of Availability Zones (AZs), I used just 1 Availability Zone.</br>
-<b>• I made sure the Number of public subnets chosen is 1.</br>
-<b>• I made sure the Number of private subnets chosen is also 1.</br>
-<b>• Updated my public and private subnets' CIDR blocks:</br>
-<img src="https://github.com/Tanakagi/Testing-VPC-Connectivity-and-troubleshooting-connection-issues./blob/96b4dda5cc0c295f3492448afecaabe10564e306/Project%20Images/image3.png" height="50%" width="50%" />
+<b>• In the left navigation pane, I clicked Run Command.</br>
+<img src="" height="50%" width="50%" />
 </br>
 </br>
 
-<b>• For the VPC endpoints option, I select None.</br>
-<b>• I Left the DNS options checked.</br>
-<b>• I Then Created VPC.</br>
-<img src="https://github.com/Tanakagi/Testing-VPC-Connectivity-and-troubleshooting-connection-issues./blob/96b4dda5cc0c295f3492448afecaabe10564e306/Project%20Images/image4.png" height="50%" width="50%" />
-<img src="https://github.com/Tanakagi/Testing-VPC-Connectivity-and-troubleshooting-connection-issues./blob/96b4dda5cc0c295f3492448afecaabe10564e306/Project%20Images/image5.png" height="80%" width="80%" />
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
 </br>
 </br>
 
 
-<b> I then tidy up my resources' names to make everything more neat and simple to read.</br>
-<img src="https://github.com/Tanakagi/Testing-VPC-Connectivity-and-troubleshooting-connection-issues./blob/96b4dda5cc0c295f3492448afecaabe10564e306/Project%20Images/image6.png" height="80%" width="80%" />
-<img src="https://github.com/Tanakagi/Testing-VPC-Connectivity-and-troubleshooting-connection-issues./blob/96b4dda5cc0c295f3492448afecaabe10564e306/Project%20Images/image7.png" height="80%" width="80%" />
-<img src="https://github.com/Tanakagi/Testing-VPC-Connectivity-and-troubleshooting-connection-issues./blob/96b4dda5cc0c295f3492448afecaabe10564e306/Project%20Images/image8.png" height="80%" width="80%" />
+<b> I scrolled to the Command parameters section and filled in the following information:</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• In the Targets section, I selected Choose instances manually, and then under Instances, selected the check box next to Web Server. This configuration installs the CloudWatch agent on the web server.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I then viewed the output from the job to confirm that it ran successfully.</br>
+<b>•  I then viewed the output from the job to confirm that it ran successfully.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+<b>• Under Targets and outputs, I selected the instance and then clicked View output. </br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I then expanded Step 2 - Output instead. and selected this option because the instance I was using was created from a Linux AMI.</br>
+<img src="" height="80%" width="80%" />
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+</br>
+
+<b> I then configured the CloudWatch agent to collect the desired log information. The instance has a web server installed,</br>
+so I configured the CloudWatch agent to collect the web server logs and general system metrics.
+<b>I stored the configuration file in AWS Systems Manager Parameter Store, which the CloudWatch agent can then retrieve.</br>
+</br>
+
+<b>• I selected "Create parameter", I then configured the following information:</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
 </br>
 </br>
