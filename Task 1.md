@@ -1,4 +1,4 @@
-# Task 1: I first started this project by Creating a VPC.
+# Task 1: Installing the CloudWatch agent.
 
 <b>• I made sure my CIDR block had enough addresses.</br> 
 <b>• I changed the amount of AZ to 1 because I only need one, but in a real-life scenario I would use 3 to make it highly available. I also did the same for the number of public and private subnets.,.</br> 
