@@ -57,7 +57,7 @@ so I configured the CloudWatch agent to collect the web server logs and general 
 </br>
 </br>
 
-<b> I added the configurations code under (LINK) "value",</br>
+<b> I added the following ([configurations code](https://github.com/Tanakagi/Monitoring-Infrastructure./blob/3346d8344b86179da500444d573350792f8f8980/Parameter%20Store%20configuration%20value%20code.py)) under "value",</br>
 <b> I then examined the above configuration code. which defines the following items to be monitored:</br>
 <b>• **Logs:** Two web server log files to be collected and sent to CloudWatch Logs</br>
 <b>• **Metrics:** CPU, disk, and memory metrics to be sent to CloudWatch Metrics</br>
