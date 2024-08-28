@@ -1,4 +1,4 @@
-# Task 2: I then created my Network ACLs and Security groups for security purposes.
+# Task 2: Monitoring instance metrics using CloudWatch.
 
 ## Network ACLs configuration.
 
