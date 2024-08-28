@@ -1,6 +1,6 @@
 # Task 1: Installing the CloudWatch agent.
 
-### In this task, you use Systems Manager to install the CloudWatch agent on an EC2 instance. You configure it to collect both application and system metrics.
+### In this task, I used Systems Manager to install the CloudWatch agent on an EC2 instance. I configure it to collect both application and system metrics.
 
 <b>• In the AWS Management Console, I selected Systems Manager.</br> 
 <img src="" height="80%" width="80%" />
@@ -23,7 +23,7 @@
 </br>
 </br>
 
-<b>• In the Targets section, I selected Choose instances manually, and then under Instances, selected the check box next to Web Server. This configuration installs the CloudWatch agent on the web server.</br>
+<b>• In the Targets section, I selected Choose instances manually, and then under Instances, I selected the Web Server. This configuration installs the CloudWatch agent on the web server.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
@@ -47,7 +47,7 @@
 
 <b> I then configured the CloudWatch agent to collect the desired log information. The instance has a web server installed,</br>
 so I configured the CloudWatch agent to collect the web server logs and general system metrics.
-<b>I stored the configuration file in AWS Systems Manager Parameter Store, which the CloudWatch agent can then retrieve.</br>
+<b>I stored the configuration file in the AWS Systems Manager Parameter Store, which the CloudWatch agent can then retrieve.</br>
 </br>
 
 <b>• I selected "Create parameter", This parameter will be referenced when starting the CloudWatch agent.</br>
@@ -73,40 +73,39 @@ so I configured the CloudWatch agent to collect the web server logs and general 
 <b>• I selected the following commands and clicked enter:</br>
 <b>• Before running the commands, I  viewed the definition of the command.</br>
 <img src="" height="80%" width="80%" />
-</br>
-</br>
-
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<img src="" height="80%" width="80%" />
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<b>• I then clicked the run command and searched for AmazonCloudWatch-ManageAgent</br>
+and clicked the name itself (its link) to Browse through the content of each tab to see how a command document is defined.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<b>• I selected the Content tab and scrolled to the bottom to see the script that ran on the target instance.</br>
+<b>• The script references the AWS Systems Manager Parameter Store because it retrieves the CloudWatch agent configuration that I defined earlier.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<b>• I then returned  to the Run a command tab that I was using earlier.
+<b>• I  selected  AmazonCloudWatch-ManageAgent.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<b>• In the Command parameters section, I configure the following information:
+<b>• This configures the agent to use the configuration I previously stored in the Parameter Store.</br>
+<img src="" height="80%" width="80%" />
+<img src="" height="80%" width="80%" />
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
-<img src="" height="80%" width="80%" />
-</br>
-</br>
-
-<b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
+<b>• I Waited for the Overall status to change to Success.</br> 
+<b>•The CloudWatch agent was running on the instance and was sending log and metric data to CloudWatch.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
