@@ -19,9 +19,11 @@ In this project, I used Systems Manager to install the CloudWatch agent on an EC
 
 ### Task 1: Installing the CloudWatch agent.
 
-### Task 2: Monitoring instance metrics using CloudWatch.
+### Task 2: Monitoring application logs using CloudWatch Logs
 
-### Task 3: Creating real-time notifications
+### Task 3: Monitoring instance metrics using CloudWatch.
 
-### Task 4: Monitoring for infrastructure compliance
+### Task 4: Creating real-time notifications
+
+### Task 5: Monitoring for infrastructure compliance
 </br>
