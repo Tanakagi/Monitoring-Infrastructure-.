@@ -1,4 +1,4 @@
-# Task 7: Testing VPC connectivity with the internet.
+# Task 4: Monitoring for infrastructure compliance.
 
 <b>I entered a curl command to test the public servers' connectivity with the internet.</br>
 <b>•This output confirms that my Public Sever instance can talk with the internet.</br>
