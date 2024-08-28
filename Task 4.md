@@ -26,33 +26,26 @@
 
 <b>• On the Services  menu, I selected Simple Notification Service, then Topics.</br>
 <img src="" height="80%" width="80%" />
+</br>
+</br>
+
+<b>•. I clicked the link in the "Name" column.</br>
+<b>• I  saw a single subscription associated with my email address. This is the Topic I configured in Task 2.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• In the Targets section on the right, I configured the following settings, then Created the rule:</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-</br>
-</br>
-
-<b>• In the Targets section on the right, I configured the following settings, then Created the rule:</br>
-<img src="" height="80%" width="80%" />
+<b>• I went to EC2 Instance page and then Stopped the webserver instance.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• In the Targets section on the right, I configured the following settings, then Created the rule:</br>
-<img src="" height="80%" width="80%" />
+<b>• I then received an email with details about the instance that was stopped.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
 
-<b>• In the Targets section on the right, I configured the following settings, then Created the rule:</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-</br>
-</br>
+
 
 <b>• In the Targets section on the right, I configured the following settings, then Created the rule:</br>
 <img src="" height="80%" width="80%" />
