@@ -1,6 +1,6 @@
 # Monitoring-Infrastructure.
 
-In this project, I used Systems Manager to install the CloudWatch agent on an EC2 instance. I configure it to collect both application and system metrics.
+In this project, I used Systems Manager to install the CloudWatch agent on an EC2 instance. I configured it to collect both application and system metrics. I created a real-time notification that informed me when an instance was stopped or terminated. Activated AWS Config rules to ensure compliance with tagging and Amazon Elastic Block Store (Amazon EBS) volumes.
 
 ## AWS services used:
 <b> **• AWS Systems Manager** - used to install CloudWatch agent on EC2 instance.</br>
