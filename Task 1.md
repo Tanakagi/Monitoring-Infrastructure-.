@@ -1,6 +1,6 @@
 # Task 1: Installing the CloudWatch agent.
 
-### In this task, I used Systems Manager to install the CloudWatch agent on an EC2 instance. I configure it to collect both application and system metrics.
+### In this task, I used Systems Manager to install the CloudWatch agent on an EC2 instance. I configure CloudWatch to collect both application and system metrics.
 
 <b>• In the AWS Management Console, I selected Systems Manager.</br> 
 <img src="" height="80%" width="80%" />
