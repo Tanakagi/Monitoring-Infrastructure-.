@@ -10,10 +10,9 @@ In this project, I used Systems Manager to install the CloudWatch agent on an EC
 <b> **• Amazon Simple Notification Service(SNS)** - used to notify me when my EC2 instance is stopped or terminated.</br>
 <b> **• AWS Config** - used to ensure compliance  .</br>
 </br>
-
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/7c3bf80f5fa11cc024bf2b9d4eb06ddba3734a37/Project%20Images/RM1.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/7c3bf80f5fa11cc024bf2b9d4eb06ddba3734a37/Project%20Images/RM2.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/7c3bf80f5fa11cc024bf2b9d4eb06ddba3734a37/Project%20Images/RM3.png" height="80%" width="80%" />
 
 # Project walk-through:
 
