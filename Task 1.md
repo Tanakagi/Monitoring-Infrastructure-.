@@ -3,44 +3,44 @@
 ### In this task, I used Systems Manager to install the CloudWatch agent on an EC2 instance. I configure CloudWatch to collect both application and system metrics.
 
 <b>• In the AWS Management Console, I selected Systems Manager.</br> 
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/image%202.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• In the left navigation pane, I clicked Run Command.</br>
-<img src="" height="50%" width="50%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%203.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I selected the button next to AWS-ConfigureAWSPackage.</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/image%204.png" height="80%" width="80%" />
 </br>
 </br>
 
 
 <b> I scrolled to the Command parameters section and filled in the following information:</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/image%205.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• In the Targets section, I selected Choose instances manually, and then under Instances, I selected the Web Server. This configuration installs the CloudWatch agent on the web server.</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%206.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I then viewed the output from the job to confirm that it ran successfully.</br>
-<b>•  I then viewed the output from the job to confirm that it ran successfully.</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%207.png" height="80%" width="80%" />
 </br>
 </br>
+
 <b>• Under Targets and outputs, I selected the instance and then clicked View output. </br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%209.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I then expanded Step 2 - Output instead. and selected this option because the instance I was using was created from a Linux AMI.</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2010.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2011.png" height="80%" width="80%" />
 </br>
 </br>
 </br>
@@ -52,8 +52,8 @@ so I configured the CloudWatch agent to collect the web server logs and general 
 
 <b>• I selected "Create parameter", This parameter will be referenced when starting the CloudWatch agent.</br>
 <b>I then configured the following information:</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2012.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2013.png" height="80%" width="80%" />
 </br>
 </br>
 
@@ -61,46 +61,46 @@ so I configured the CloudWatch agent to collect the web server logs and general 
 <b> I then examined the above configuration code. which defines the following items to be monitored:</br>
 <b>• **Logs:** Two web server log files to be collected and sent to CloudWatch Logs</br>
 <b>• **Metrics:** CPU, disk, and memory metrics to be sent to CloudWatch Metrics</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2014.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I then used another Run Command to start the CloudWatch agent on the web server.</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2015.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I selected the following commands and clicked enter:</br>
 <b>• Before running the commands, I  viewed the definition of the command.</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2016.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2017.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2018.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I then clicked the run command and searched for AmazonCloudWatch-ManageAgent</br>
 and clicked the name itself (its link) to Browse through the content of each tab to see how a command document is defined.</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2019.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I selected the Content tab and scrolled to the bottom to see the script that ran on the target instance.</br>
 <b>• The script references the AWS Systems Manager Parameter Store because it retrieves the CloudWatch agent configuration that I defined earlier.</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2020.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I then returned  to the Run a command tab that I was using earlier.
 <b>• I  selected  AmazonCloudWatch-ManageAgent.</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2021.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• In the Command parameters section, I configure the following information:
 <b>• This configures the agent to use the configuration I previously stored in the Parameter Store.</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2022.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2023.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2025.png" height="80%" width="80%" />
 </br>
 </br>
 
