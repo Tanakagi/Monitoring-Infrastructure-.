@@ -126,18 +126,13 @@
 
 
 <b>• I went back to the web page and added a page name after the IP address. I repeated this five times to generate log data.</br>
+<b>• I then went back to the AWS console page and waited 2 minutes for the alarm to trigger.</br>
+<b>• The graph shown on the CloudWatch page  turned red to indicate that it was in the Alarm state.</br>
 <img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/ae6da8a2a27739f042c997aeb42f4d9bbe64eae3/Project%20Images/Image%2050.png" height="80%" width="80%" />
 </br>
 </br>
 
-
-<b>• I then went back to the AWS console page and waited 2 minutes for the alarm to trigger.</br>
-<b>• The graph shown on the CloudWatch page  turned red to indicate that it was in the Alarm state.</br>
-<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/ae6da8a2a27739f042c997aeb42f4d9bbe64eae3/Project%20Images/Image%2051.png" height="80%" width="80%" />
-</br>
-</br>
-
 <b>• I then checked my email and received an email with the subject ALARM: "404 Errors".</br>
-<img src="" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/ae6da8a2a27739f042c997aeb42f4d9bbe64eae3/Project%20Images/Image%2051.png" height="80%" width="80%" />
 </br>
 </br>
