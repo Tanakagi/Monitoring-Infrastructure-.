@@ -2,7 +2,7 @@
 
 ### In this task, I activated AWS Config rules to ensure compliance with tagging and Amazon Elastic Block Store (Amazon EBS) volumes.
 
-<b>• On the Services  menu, I selected Config, then Add rule..</br>
+<b>• On the Services  menu, I selected Config, then Add rule.</br>
 <img src="" height="80%" width="80%" />
 </br>
 </br>
