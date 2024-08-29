@@ -48,10 +48,3 @@
 </br>
 </br>
 
-
-
-<b>• In the Targets section on the right, I configured the following settings, then Created the rule:</br>
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-</br>
-</br>
