@@ -11,8 +11,9 @@
 </br>
 </br>
 
-<b>• I selected "CWAgent", and then chose **device, fstype, host, path**.
+<b>• I selected "CWAgent", and then chose **device, fstype, host, path**.</br>
 <b>• I  saw the disk space metrics that the CloudWatch agent is capturing.</br>
 <img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/6949f70836a224862f3866a2852a89d0a33a571b/Project%20Images/Image%2054.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/20fc11aaf011a443fdd62e63c54204015574b0d5/Project%20Images/Image%2055.png" height="80%" width="80%" />
 </br>
 </br>
