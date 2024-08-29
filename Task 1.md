@@ -100,12 +100,11 @@ and clicked the name itself (its link) to Browse through the content of each tab
 <b>• This configures the agent to use the configuration I previously stored in the Parameter Store.</br>
 <img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2022.png" height="80%" width="80%" />
 <img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2023.png" height="80%" width="80%" />
-<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2025.png" height="80%" width="80%" />
 </br>
 </br>
 
 <b>• I Waited for the Overall status to change to Success.</br> 
 <b>•The CloudWatch agent was running on the instance and was sending log and metric data to CloudWatch.</br>
-<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2026.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/51492ad91cfff96003af972e81cb6b54054422b1/Project%20Images/Image%2025.png" height="80%" width="80%" />
 </br>
 </br>
