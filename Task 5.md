@@ -39,9 +39,10 @@
 ## End of project.
 
 <b>This was the end of my project as I was able to successfully:</br>
-<b>• Create a VPC and secure it using network ACLs and Security groups,</br>
-<b>• Launch 2 EC2 instances in a private and public subnet that could communicate with each other,</br>
-<b>• Successfully troubleshoot connectivity issues and connect to the internet via my public server.</br>
-
+<b>• Use Systems Manager to install the CloudWatch agent on an EC2 instance. Configure CloudWatch to collect both application and system metrics,</br>
+<b>• Generate log data on the Web Server and then monitor the logs using CloudWatch Logs,</br>
+<b>• Set up metrics that CloudWatch provides to monitor my EC2 instance,</br>
+<b>• Create a real-time notification that informed me when an instance is stopped or terminated,</br>
+<b>• Activate AWS Config rules to ensure compliance with tagging and Amazon Elastic Block Store (Amazon EBS) volumes.</br>
 </br>
 </br>
