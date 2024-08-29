@@ -48,3 +48,8 @@
 </br>
 </br>
 
+<b>• In the Targets section on the right, I configured the following settings, then Created the rule:</br>
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/5c501dcc0cd355cc0b76869cf23700587030c069/Project%20Images/Image%2066.png" height="80%" width="80%" />
+<img src="https://github.com/Tanakagi/Monitoring-Infrastructure./blob/6cde22bf1ad72845d1c90b5daf1fe8c5e4e05971/Project%20Images/Image%2067.png" height="80%" width="80%" />
+</br>
+</br>
